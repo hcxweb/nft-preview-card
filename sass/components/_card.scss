@@ -17,6 +17,7 @@
         margin-bottom: $margin-lg;
         border-radius: 8px;
         position: relative;
+        cursor: pointer;
         overflow: hidden;
 
         &::before {
@@ -25,16 +26,16 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            background: url("../../images/icon-view.svg") no-repeat center;
+            background: url('../images/icon-view.svg') no-repeat center;
             background-color: rgba($color-secondary, 0.6);
             opacity: 0;
-            visibility: hidden; //for better accessibility
+            visibility: hidden; //for better accessibility?
             transition: visibility 300ms, opacity 300ms;
         }
 
         &:hover::before {
             opacity: 1;
-            visibility: visible; //for better accessibility
+            visibility: visible; //for better accessibility?
         }
     }
 
