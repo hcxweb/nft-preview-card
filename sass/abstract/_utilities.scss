@@ -1,0 +1,7 @@
+@use 'variables' as *;
+
+// HORIZONTAL LINE 
+.hr-line {
+    border: 1px solid $color-primary;
+    border-style: solid none none none;
+}
